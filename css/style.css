@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/karla-v15-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/karla-v15-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* karla-700 - latin */
+  @font-face {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/karla-v15-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/karla-v15-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* karla-800 - latin */
+  @font-face {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+         url('../fonts/karla-v15-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/karla-v15-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* dm-serif-display-regular - latin */
+  @font-face {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/dm-serif-display-v4-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/dm-serif-display-v4-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  .container{
+    max-width: 1110px;
+    margin:0 auto;
+  }
+  .nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+  }
+  .nav_items_block{
+    overflow: hidden;
+  }
+  .ulnavitems{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 400px;
+  }
+  li{
+    margin-right: 25px;
+  }
+  .navlink{
+    margin-top: 50px;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #837D88;
+    text-decoration: none;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+
+  }
+  .navlink:hover{
+    margin-top: 50px;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #2C2830;
+    ;
+    text-decoration: none;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+
+  }
+  .btnitem{
+    width: 146px;
+    height: 40px;
+    margin-right: 25px;
+    border: 1px solid #2C2830;
+  }
+  .btnlink{
+    width: 146px;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: #2C2830;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+  }
+  .btnlink:hover{
+    width: 146px;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+  }
+  hr{
+    float: left;
+    
+    width: 150px;
+    height: 1px;
+    background: #C396C6;
+  }
+  .diffblock{
+    height: 474px;
+  }
+  .difftitle{
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    padding-bottom: 96px;
+  }
+  .iconlist{
+    height: 250px;
+  }
+  .snappy{
+    width: 350px;
+  }
+  .difficontitle{
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.388889px;
+    color: #2C2830;
+  }
+.diffdesc{
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #837D88;
+}
+.icon{
+    height: 86px;
+    width: 86px;
+    margin-bottom: 32px;
+}
+.snappy
+{
+  position: absolute;
+  width: 350px;
+  height: 132px;
+}
+.afford{
+  position: absolute;
+  width: 350px;
+  height: 250px;
+  left: 545px;
+}
+.people{
+  position: absolute;
+  width: 350px;
+  height: 250px;
+  left: 925px;
+}
